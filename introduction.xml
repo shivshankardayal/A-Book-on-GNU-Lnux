@@ -1,47 +1,100 @@
 <d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
-    xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:mml="http://www.w3.org/1998/Math/MathML">
-<!--
-    Copyright (C)  2013 Shiv S. Dayal.
-    Permission is granted to copy, distribute and/or modify this document
-    under the terms of the GNU Free Documentation License, Version 1.3
-    or any later version published by the Free Software Foundation;
-    with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
-    A copy of the license is included in the section entitled "GNU
-    Free Documentation License".
+	   xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+	   xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <!--
+      Copyright (C)  2013 Shiv S. Dayal.
+      Permission is granted to copy, distribute and/or modify this document
+      under the terms of the GNU Free Documentation License, Version 1.3
+      or any later version published by the Free Software Foundation;
+      with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+      A copy of the license is included in the section entitled "GNU
+      Free Documentation License".
 
--->
+  -->
   <?xml-stylesheet href="../css/style.css" type="text/css"?>
   <?dbhtml filename="introduction/index.html" ?>
   <d:title> Introduction </d:title>
   <d:para>
-      I do not think I need to introduce GNU/Linux to anyone remotely interested
-      in computers and programming in particular. Well, exceptions are always
-      there like old people who do nothing but browse, chat and email or
-      possibly go to Facebook or kids who have just started working on computers.
-      Some people might have heard the term Ubunut or Fedora or OpenSUSE or Mint
-      or Debian etc and maybe also using them without knowing that essentially
-      all are GNU/Linux variations. You would ask me what is GNU/Linux then
-      because all other names mentioned previously are open source operating
-      system. You might even ask I have heard of Linux what is this GNU?
-      Well, GNU is an acronym which stands for "GNU is not Unix". GNU is an
-      ecosystem which provides Linux as its kernel. And no GNU/Linux is not
-      only an operating system but it is a complete package. For almost all needs
-      you just need to install one of the distributions mentioned. GNU or free
-      software movement was started by Richard Stallman in 1983. The objective
-      was to provide free operating system. What did you say free means no
-      price? No no it means freedom. Free as in freedom not free beer. Remember
-      it and never forget because if you forget or do not respect your
-      freedom you will end up loosing it. GNU was meant to provide freedom both
-      to the programmers and to the users from proprietary software. You do not
-      have to spend zillions of dollars to aquire the software and more importantly
-      you can modify it because source code is available to you. Now note that
-      you can modify it not like other proprietary system where you know there
-      is a problem and you know what is the fix but you cannot apply it even
-      though you have bought it. Consider you have bought a car and it is
-      not working and you know you can fix it then wont you? Will the car company
-      come and stop you? No, right. But in software world in the name of
-      intellectual property rights money is looted from its users for second grade
-      worthless software. You know what I am pointing towards.
+    I do not think I need to introduce GNU/Linux to anyone remotely interested
+    in computers and programming in particular. Well, exceptions are always
+    there like old people who do nothing but browse, chat and email or
+    possibly go to Facebook or kids who have just started working on computers.
+    Some people might have heard the term Ubunut or Fedora or OpenSUSE or Mint
+    or Debian etc and maybe also using them without knowing that essentially
+    all are GNU/Linux variations. You would ask me what is GNU/Linux then
+    because all other names mentioned previously are open source operating
+    system. You might even ask I have heard of Linux what is this GNU?
+    Well, GNU is an acronym which stands for "GNU is not Unix". GNU is an
+    ecosystem which provides Linux as its kernel. And no GNU/Linux is not
+    only an operating system but it is a complete package. For almost all needs
+    you just need to install one of the distributions mentioned. GNU or free
+    software movement was started by Richard Stallman in 1983. The objective
+    was to provide free operating system. What did you say free means no
+    price? No no it means freedom. Free as in freedom not free beer. Remember
+    it and never forget because if you forget or do not respect your
+    freedom you will end up loosing it. GNU was meant to provide freedom both
+    to the programmers and to the users from proprietary software. You do not
+    have to spend zillions of dollars to aquire the software and more importantly
+    you can modify it because source code is available to you. Now note that
+    you can modify it not like other proprietary system where you know there
+    is a problem and you know what is the fix but you cannot apply it even
+    though you have bought it. Consider you have bought a car and it is
+    not working and you know you can fix it then wont you? Will the car company
+    come and stop you? No, right. But in software world in the name of
+    intellectual property rights money is looted from its users for second grade
+    worthless software. You know what I am pointing towards. Oh how I hate you
+    would say. Yes I hate and I pity them together. Is it only their knowledge
+    they are building the software upon. NO! Knowledge has accumulated by the
+    contribution of many people over thousands of years. We learn something
+    from previous generations and we build upon it. Then on what grounds there
+    can be a copyright on knowledge. It is with the same thought I write free
+    books in the free spirit. I would rather live one day as free man and die
+    than live hundred years of luxurious life of slavery. These companies which
+    manufacture proprietary software are trying to enslave the very life.
   </d:para>
-  </d:chapter>
+  <d:para>
+    The first step which you can take is install a distribution of GNU/Linux. I
+    prefer Mint because it ships with Mate as default and its green theme is
+    soothing. It is just a personal perference. Ubuntu is not bad either though
+    they have taken a bad approach towards secure boot. Debian and Cent OS are
+    pretty solid for servers. If you are on one of the popular proprietary
+    systems and afraid of doing a native install then I encourage you to watch
+    my video on how to install Mint GNU/Linux on VirtualBox. You can view this
+    <d:ulink
+	url="https://www.youtube.com/watch?v=ltuKHo4UCrY">here</d:ulink>. I
+    will try to make more such videos and upload them. Now go ahead and take
+    your first step towards freedom by installing one of the distributions of
+    GNU/Linux.
+  </d:para>
+  <d:para>
+    Now that you have installed GNU/Linux I will tell you how to use it. We
+    will start with command line and later we will see at GUI. GUI is easy
+    becasue you can do a lot by yourself. If you have installed Mint with Mate
+    then you have a terminal or in Ubintu you have a terminal. Note that
+    underlyrng terminal is almost same but the difference is in their
+    names. One is called <d:code>mate-terminal</d:code> and another is called
+    <d:code>gnome-terminal</d:code>. If you have installed KDE based desktop
+    manager then you would have a program called <d:code>konsole</d:code>. Just
+    navigat the GUI menus to find them and start them. The menu should be at
+    bottom-left or top-left. Once you are there you would see a prompt ending
+    with <d:code>$</d:code>. This sgnifies you are using a bash(bourne again
+    shell) as a normal user. If you are a root (the alll powerful administrator
+    of a Unix or GNU/Linux system) then it would be <d:code>#</d:code>. Note
+    that you can not login as root in most of these system but you can do that
+    easily. I will tell you about that later. So now we have this prompt (it is
+    called a prompt because it is asking you to enter a command which it is
+    ready to serve for you if possible and you do not mess that). Let us see
+    what we can do with this prompt.
+  </d:para>
+  <d:sect1>
+    <d:title>Starting with Command Prompt</d:title>
+    <d:para>Whatever command you enter is first word or string if it has
+    spaces or some special characters. Note that if you have such special stuff
+    then it has to be quoted. For now let us not worry about that and try to
+    see what we have. Most of the commands will be one word or path to one file
+    which must be executable. When I say executable then it means it should be
+    able to execute not only in the sense of permissions. You can mark even a
+    text file executable but that does not mean it will execute meanigfully.
+    </d:para>
+  </d:sect1>
+</d:chapter>
