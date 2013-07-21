@@ -18,7 +18,7 @@
   -->
 
   <!-- Use the official stylesheet distro -->
-  <!--xsl:import href="/usr/share/xml/docbook/stylesheet/docbook-xsl-ns/html/chunk.xsl" /-->
+  <!--<xsl:import href="/usr/share/xml/docbook/stylesheet/docbook-xsl-ns/html/chunk.xsl" />-->
   <xsl:import href="/opt/local//share/xsl/docbook-xsl-ns/html/chunk.xsl" />
 
   <!-- The location of the highlighting configuration -->
@@ -27,10 +27,12 @@
   
   <xsl:param name="html.stylesheet" select="'../css/style.css'" />
   <xsl:template name="user.head.content">
-    <script src="../css/analytics.js" type="text/javascript"></script>
+    <script src="/css/jquery.js" type="text/javascript"></script>
+    <script src="/css/bootstrap.js" type="text/javascript"></script>
+    <script src="/css/analytics.js" type="text/javascript"></script>
   </xsl:template>
   <xsl:template name="user.footer.navigation">
-    <p style="text-align: center;">&#x00A9; 2010, 2013 Shiv S. Dayal. <a href="http://libreprogramming.org">libreprogramming.org</a>.
+    <p style="text-align: center;">&#x00A9; 2013 Shiv S. Dayal. <a href="http://libreprogramming.org">libreprogramming.org</a>.
     GNU FDL license is applicable where not stated.</p>
   </xsl:template>
 
@@ -42,7 +44,7 @@
   <xsl:param name="textinsert.extension" select="1"/>
   <xsl:param name="section.label.includes.component.label" select="1"/>
   <xsl:param name="chunk.section.depth" select="0"/>
-  <xsl:param name="toc.section.depth" select="4"/>
+  <xsl:param name="toc.section.depth" select="2"/>
   <xsl:template name="section.titlepage.before.recto">
     <xsl:variable name="level">
       <xsl:call-template name="section.level"/>
