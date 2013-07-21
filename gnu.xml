@@ -27,6 +27,7 @@
     </d:copyright>
   </d:info>
   <xi:include href="preface.xml"/>
+  <xi:include href="introduction.xml"/>
   <d:index>
     <d:title>Index</d:title>
   </d:index>
